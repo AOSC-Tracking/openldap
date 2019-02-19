@@ -1657,6 +1657,9 @@ LDAP_SLAPD_F (int) slap_sasl_external( Connection *c,
 	slap_ssf_t ssf,	/* relative strength of external security */
 	struct berval *authid );	/* asserted authenication id */
 
+LDAP_SLAPD_F (int) slap_sasl_cbinding( Connection *c,
+	struct berval *cbv );
+
 LDAP_SLAPD_F (int) slap_sasl_reset( Connection *c );
 LDAP_SLAPD_F (int) slap_sasl_close( Connection *c );
 

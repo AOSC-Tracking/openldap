@@ -49,6 +49,7 @@
 #endif
 #include "lutil.h"
 #include "lutil_ldap.h"
+#include "ldif.h"
 #include "config.h"
 
 #ifdef _WIN32
