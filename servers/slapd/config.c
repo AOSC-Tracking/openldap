@@ -43,6 +43,7 @@
 #endif
 
 #include "slap.h"
+#include "proto-slap.h"
 #ifdef LDAP_SLAPI
 #include "slapi/slapi.h"
 #endif

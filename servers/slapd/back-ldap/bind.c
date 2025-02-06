@@ -31,6 +31,7 @@
 
 #define AVL_INTERNAL
 #include "slap.h"
+#include "proto-slap.h"
 #include "back-ldap.h"
 #include "lutil.h"
 #include "lutil_ldap.h"

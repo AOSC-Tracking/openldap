@@ -31,6 +31,7 @@
 
 #define AVL_INTERNAL
 #include "slap.h"
+#include "proto-slap.h"
 #include "../back-ldap/back-ldap.h"
 #include "back-meta.h"
 
