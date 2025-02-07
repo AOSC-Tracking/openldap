@@ -2041,6 +2041,10 @@ ldap_is_ldap_url LDAP_P((
 	LDAP_CONST char *url ));
 
 LDAP_F( int )
+ldap_is_ldapc_url LDAP_P((
+	LDAP_CONST char *url ));
+
+LDAP_F( int )
 ldap_is_ldaps_url LDAP_P((
 	LDAP_CONST char *url ));
 

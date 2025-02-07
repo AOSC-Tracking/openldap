@@ -33,7 +33,7 @@ LDAP_END_DECL
  * definitions for POSIX Threads  *
  *                                *
  **********************************/
-
+#define __USE_UNIX98
 #include <pthread.h>
 #ifdef HAVE_SCHED_H
 #include <sched.h>

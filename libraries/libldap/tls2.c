@@ -79,6 +79,8 @@ static oid_name oids[] = {
 LDAP_F(int) ldap_pvt_tls_check_hostname LDAP_P(( LDAP *ld, void *s, const char *name_in ));
 LDAP_F(int) ldap_pvt_tls_get_peercert LDAP_P(( void *s, struct berval *der ));
 
+int ldap_pvt_tls_check_hostname( LDAP *ld, void *s, const char *name_in );
+
 void
 ldap_pvt_tls_ctx_free ( void *c )
 {
